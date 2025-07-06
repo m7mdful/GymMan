@@ -8,16 +8,30 @@
 }
 
 
-.paddingleft{
-    padding-left: 10rem;
+.marginleft{
+    margin-left: 10rem;
+	@media screen and (max-width: 768px) {
+		margin-left: 5rem;
+		
+	}
+}
+
+.chosen-yellow {
+    background-color: rgb(255, 166, 0);
 }
 
 .hovering{
 	transition: all 0.5s ease-in-out;
+	background: white;
 }
 .hovering:hover {
-	background-color: #3d3d3d;
-	color: white;
+	background-color: #ffbb00;
+	color: rgb(0, 0, 0);
 	scale: 1.05;
 	box-shadow: none 10px;
+}
+
+
+.fulldisplay{
+	height: 100dvh;
 }
