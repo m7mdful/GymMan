@@ -23,7 +23,7 @@ const { changeWorkout } = defineProps({
 					onclick=""
 				>
 					<img
-						src="../../public/icons8-triceps-100.png"
+						src="../assets/Triceps.png"
 						alt="triceps"
 						class=""
 						width="50"
@@ -31,7 +31,7 @@ const { changeWorkout } = defineProps({
 						v-if="Index % 3 === 0"
 					/>
 					<img
-						src="../../public/icons8-biceps-100.png"
+						src="../assets/icons8-biceps-100.png"
 						alt="triceps"
 						class=""
 						width="50"
@@ -39,7 +39,7 @@ const { changeWorkout } = defineProps({
 						v-if="Index % 3 === 1"
 					/>
 					<img
-						src="../../public/icons8-leg-100.png"
+						src="../assets/icons8-leg-100.png"
 						alt="triceps"
 						class=""
 						width="50"
@@ -56,7 +56,7 @@ const { changeWorkout } = defineProps({
 				<div
 					class="font2 d-flex flex-column justify-content-center border border-black align-items-center cardwidth d-flex flex-column gap-2 p-1 rounded-3 workoutbtn"
 				>
-				<img src="../../../public/icons8-reload-100.png" width="50" height="50" alt="" class="">
+				<img src="../assets/icons8-reload-100.png" width="50" height="50" alt="" class="">
 				reset
 			</div>
 			</button>

@@ -7,7 +7,7 @@
 				<div class="container-fluid">
 					<a class="navbar-brand font1 fs-1" href="#">
 						<img
-							src="../../../public/icons8-dumbbell-100.png"
+							src="../../assets/icons8-dumbbell-100.png"
 							width="40"
 							height="40"
 						/>

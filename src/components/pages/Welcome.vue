@@ -1,8 +1,7 @@
 <script setup>
-	const { changeDisplay } = defineProps({
-		changeDisplay: Function,
-	});
-
+const { changeDisplay } = defineProps({
+	changeDisplay: Function,
+});
 </script>
 
 <template>
@@ -25,28 +24,19 @@
 				class="d-flex flex-wrap justify-content-center mt-5 gap-2 text"
 			>
 				<h4 class="badge bg-grey fs-5">Push</h4>
-				<img
-					src="../../../public/arrow_right_alt_100dp_000000_FILL0_wght400_GRAD0_opsz48.png"
-					width="30"
-					height="30"
-				/>
+				<img src="../../assets/Arrow.png" width="30" height="30" />
 				<h4 class="badge bg-grey fs-5">Pull</h4>
-				<img
-					src="../../../public/arrow_right_alt_100dp_000000_FILL0_wght400_GRAD0_opsz48.png"
-					width="30"
-					height="30"
-				/>
+				<img src="../../assets/Arrow.png" width="30" height="30" />
 				<h4 class="badge bg-grey fs-5">Legs</h4>
-				<img
-					src="../../../public/arrow_right_alt_100dp_000000_FILL0_wght400_GRAD0_opsz48.png"
-					width="30"
-					height="30"
-				/>
+				<img src="../../assets/Arrow.png" width="30" height="30" />
 				<h4 class="badge bg-grey fs-5">Repeat</h4>
 			</div>
 			<div class="d-flex flex-column align-items-center mt-5 gap-4 pb-3">
 				<h2 class="font2 fs-1">Can you do it!?</h2>
-				<button @click="changeDisplay(2)" class="fs-2 hovering rounded-3 p-2 border-0 bg-grey font1">
+				<button
+					@click="changeDisplay(2)"
+					class="fs-2 hovering rounded-3 p-2 border-0 bg-grey font1"
+				>
 					Begin
 				</button>
 			</div>

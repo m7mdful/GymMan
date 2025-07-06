@@ -74,8 +74,8 @@ const { workout, warmup } = workoutProgram[selectedWorkout];
 				</div>
 			</div>
             <div class="d-flex flex-row justify-content-center mt-3 gap-4">
-                <button class="bg-warning border-0 p-3 rounded-4 fs-5 font1 buttonhovering" @click="saveData">Save & Exit <img src="../../../public/icons8-save-100.png" width="28" height="28" alt="" class="mb-1"></button>
-                <button class="bg-white p-3 rounded-4 fs-5 font1 border-warning border-2 buttonhovering" :disabled="!isWorkoutComplete" @click="saveData">Completed <img src="../../../public/icons8-check-100.png" width="28" height="28" alt="" class="mb-1"></button>
+                <button class="bg-warning border-0 p-3 rounded-4 fs-5 font1 buttonhovering" @click="saveData">Save & Exit <img src="../../assets/icons8-save-100.png" width="28" height="28" alt="" class="mb-1"></button>
+                <button class="bg-white p-3 rounded-4 fs-5 font1 border-warning border-2 buttonhovering" :disabled="!isWorkoutComplete" @click="saveData">Completed <img src="../../assets/icons8-check-100.png" width="28" height="28" alt="" class="mb-1"></button>
             </div>
 		</div>
 	</section>
