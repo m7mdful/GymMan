@@ -1,15 +1,16 @@
 <script setup>
 import { workoutProgram } from "../../utils";
+import {
+    data,
+    selectedWorkout,
+    isWorkoutComplete,
+    saveData,
+} from "../../functions.js";
 const workoutTypes = ["Push", "Pull", "Legs"];
-const {saveData,isWorkoutComplete,data, selectedWorkout} = defineProps({
-        data:Object,
-        selectedWorkout: Number,
-        isWorkoutComplete: Boolean,
-        saveData: Function
-});
 
 
-const { workout, warmup } = workoutProgram[selectedWorkout];
+
+const { workout, warmup } = workoutProgram[selectedWorkout.value];
 
 </script>
 

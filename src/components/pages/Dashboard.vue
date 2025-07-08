@@ -2,12 +2,8 @@
 import Grid from "../Grid.vue";
 import { gymHealthFacts } from "../../utils/index.js";
 import { workoutProgram } from "../../utils";
+import { changeWorkout, firstIncompleteWorkout } from "../../functions.js";
 
-const props = defineProps({
-	changeWorkout: Function,
-	firstIncompleteWorkout : Number,
-	reseting: Function
-});
 const randoming = Math.floor(Math.random() * gymHealthFacts.length);
 const todayFact = gymHealthFacts[randoming];
 </script>
@@ -32,7 +28,7 @@ const todayFact = gymHealthFacts[randoming];
 		</div>
 		<div class="d-flex flex-row justify-content-center">
 			<div class="d-flex flex-wrap justify-content-center w-50">
-				<Grid v-bind="props" />
+				<Grid/>
 			</div>
 		</div>
 

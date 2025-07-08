@@ -1,7 +1,5 @@
 <script setup>
-const { changeDisplay } = defineProps({
-	changeDisplay: Function,
-});
+import { changeDisplay } from "../../functions.js";
 </script>
 
 <template>

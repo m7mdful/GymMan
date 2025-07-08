@@ -1,11 +1,7 @@
 <script setup>
 import { workoutProgram } from "../utils";
+import { changeWorkout, firstIncompleteWorkout, reseting } from "../functions.js";
 const workoutTypes = ["Push", "Pull", "Legs"];
-const { changeWorkout } = defineProps({
-	changeWorkout: Function,
-	firstIncompleteWorkout: Number,
-	reseting:Function
-});
 </script>
 
 <template>
